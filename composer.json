@@ -1,0 +1,27 @@
+{
+    "name": "timonf/miniurl",
+    "description": "Most simple URL resolver.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MiniUrl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiniUrl\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-foundation": "^5.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^10.4"
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit --testdox tests"
+    }
+}
