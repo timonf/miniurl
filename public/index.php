@@ -6,7 +6,7 @@ use MiniUrl\App;
 use Symfony\Component\HttpFoundation\Request;
 
 if (PHP_VERSION_ID < 80000) {
-    echo 'Error 1: Please create a config.php file (use config.example.php as base).' . PHP_EOL;
+    echo 'Error 1: This project requires PHP 8.0 or higher.' . PHP_EOL;
     exit(1);
 }
 

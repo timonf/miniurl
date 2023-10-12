@@ -3,6 +3,7 @@
     "description": "Most simple URL resolver.",
     "type": "project",
     "license": "MIT",
+    "version": "0.1",
     "autoload": {
         "psr-4": {
             "MiniUrl\\": "src/"
